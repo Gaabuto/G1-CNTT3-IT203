@@ -20,5 +20,10 @@ public class Bai4 {
         Animal4 animal = new Dog4();
 
         animal.sound();
+
+        if (animal instanceof Dog4) {
+            Dog4 dog = (Dog4) animal;
+            dog.bark();
+        }
     }
 }
