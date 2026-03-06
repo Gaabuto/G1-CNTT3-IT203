@@ -25,8 +25,7 @@ public class Main {
             productNeedToFind.displayInfo();
         } else {
             System.out.println("Product not found.");
-        }
-        
+}
 
     }
 }
